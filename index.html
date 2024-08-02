@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+        <div id="quiz_container">
+            <div class="" id="quiz_container_head">
+                <img src="./assets/quiz.png" alt="">
+            </div>
+
+            <!-- Welcome Content -->
+            <div class=" " id="content">
+                <h2 >Programming Quiz</h2>
+                <h5 >Enter You Name</h5>
+                <input type="type" id="username" placeholder="Enter You Name">
+                <h4 class="" id="play" onclick="playQuiz()"><a href="#">Play Now</a></h4>
+                <span class="" id="arrow"> <img src="./assets/arrow.png" alt=""></span>
+            </div>
+
+            <!-- Quiz Content -->
+            <div id="quizs">
+                <h5 class="">Question</h5>
+                <input type="radio" name="option" id="">
+                <label>options</label> <br>
+                <input type="radio" name="option" id="">
+                <label>options</label> <br>
+
+                <input type="radio" name="option" id="">
+                <label>options</label> <br>
+
+                <input type="radio" name="option" id="">
+                <label>options</label> <br>
+
+            </div>
+            <!-- Quiz Result -->
+            <div id="quiz_result">
+                <h2>Result</h2>
+                <div id="score"></div>
+                <span id="complement"></span>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
